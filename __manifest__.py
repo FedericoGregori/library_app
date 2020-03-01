@@ -6,6 +6,7 @@
     'category': 'Library',
     'depends': ['base'],
     'application': True,
+    'installable': True,
     'data': [
         'security/library_security.xml',
         'security/ir.model.access.csv',
