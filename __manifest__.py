@@ -4,7 +4,7 @@
     'author': 'Federico Gregori',
     'website': 'https://github.com/FedericoGregori',
     'category': 'Library',
-    'depends': ['base'],
+    'depends': ['base', 'report_xlsx'],
     'application': True,
     'installable': True,
     'data': [
@@ -13,7 +13,8 @@
         'views/library_menu.xml',
         'views/book_view.xml',
         'views/res_partner_view.xml',
-        'views/book_list_template.xml'
+        'views/book_list_template.xml',
+        'reports/report_xlsx_om_tutorial.xml'
     ],
     'demo': [
         'data/res.partner.csv',

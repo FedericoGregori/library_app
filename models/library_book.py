@@ -55,7 +55,6 @@ class Book(models.Model):
 
     @api.depends('publisher_id.country_id')
     def _compute_publisher_country(self):
-        print(self)
         for book in self:
             book.publisher_country_id = book.publisher_id.country_id
 

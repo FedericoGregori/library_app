@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <report
+            id="book_xlsx"
+            model="library.book"
+            string="Print to XLSX"
+            report_type="xlsx"
+            name="library_app.book_xlsx"
+            file="library_book"
+            attachment_use="False"
+    />
+</odoo>
